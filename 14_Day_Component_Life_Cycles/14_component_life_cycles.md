@@ -1,15 +1,15 @@
 <div align="center">
   <h1> 30 Days Of React:Component Life Cycles</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
+  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/deepakgauttam/">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
-  </a>
+  <!-- <a class="header-badge" target="_blank" href="https://twitter.com/Deepak">
+  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/Deepak?style=social">
+  </a> -->
 
 <sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-<small> October, 2020</small>
+<a href="https://www.linkedin.com/in/deepakgauttam/" target="_blank">Deepak Gauttam</a><br>
+<small> November, 2022</small>
 </sub>
 
 </div>
@@ -173,7 +173,7 @@ class App extends Component {
 }
 
 const rootElement = document.getElementById('root')
-ReactDOM.render(<App firstName='Asabeneh' />, rootElement)
+ReactDOM.render(<App firstName='Deepak' />, rootElement)
 ```
 
 ### Render
@@ -214,7 +214,7 @@ class App extends Component {
 }
 
 const rootElement = document.getElementById('root')
-ReactDOM.render(<App firstName='Asabeneh' />, rootElement)
+ReactDOM.render(<App firstName='Deepak' />, rootElement)
 ```
 
 ### ComponentDidMount
@@ -237,7 +237,7 @@ class App extends Component {
     // after 3 seconds it resets the state
     setTimeout(() => {
       this.setState({
-        firstName: 'Asabeneh',
+        firstName: 'Deepak',
       })
     }, 3000)
   }

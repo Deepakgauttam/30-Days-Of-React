@@ -1,15 +1,15 @@
 <div align="center">
   <h1> 30 Days Of React: React Project Folder Structure</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
+  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/deepakgauttam/">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
-  </a>
+  <!-- <a class="header-badge" target="_blank" href="https://twitter.com/Deepak">
+  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/Deepak?style=social">
+  </a> -->
 
 <sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-<small> October, 2020</small>
+<a href="https://www.linkedin.com/in/deepakgauttam/" target="_blank">Deepak Gauttam</a><br>
+<small> November, 2022</small>
 </sub>
 
 </div>
@@ -150,7 +150,7 @@ If you remember, we created the following components so far and we have been put
 // index.js
 import React from 'react'
 import ReactDOM from 'react-dom'
-import asabenehImage from './images'
+import DeepakImage from './images'
 import { countriesData } from './data/countries'
 
 // Header component
@@ -222,8 +222,8 @@ const Country = ({
 // User Card Component
 const UserCard = () => (
   <div className='user-card'>
-    <img src={asabenehImage} alt='asabeneh image' />
-    <h2>Asabeneh Yetayeh</h2>
+    <img src={DeepakImage} alt='Deepak image' />
+    <h2>Deepak Gauttam</h2>
   </div>
 )
 
@@ -404,7 +404,7 @@ class App extends React.Component {
       title: 'Getting Started React',
       subtitle: 'JavaScript Library',
       author: {
-        firstName: 'Asabeneh',
+        firstName: 'Deepak',
         lastName: 'Yetayeh',
       },
       date: 'Oct 9, 2020',

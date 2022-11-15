@@ -1,15 +1,15 @@
 <div align="center">
   <h1> 30 Days Of React:Third Party Packages</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
+  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/deepakgauttam/">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
-  </a>
+  <!-- <a class="header-badge" target="_blank" href="https://twitter.com/Deepak">
+  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/Deepak?style=social">
+  </a> -->
 
 <sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-<small> October, 2020</small>
+<a href="https://www.linkedin.com/in/deepakgauttam/" target="_blank">Deepak Gauttam</a><br>
+<small> November, 2022</small>
 </sub>
 
 </div>
@@ -70,13 +70,13 @@ Sass is a CSS preprocess which allows to write CSS function, nesting and many mo
 Using npm:
 
 ```sh
-Asabeneh@DESKTOP-KGC1AKC MINGW64 ~/Desktop/30-days-of-react$ npm install node-sass
+Deepak@DESKTOP-KGC1AKC MINGW64 ~/Desktop/30-days-of-react$ npm install node-sass
 ```
 
 Using yarn:
 
 ```sh
-Asabeneh@DESKTOP-KGC1AKC MINGW64 ~/Desktop/30-days-of-react$ yarn add node-sass
+Deepak@DESKTOP-KGC1AKC MINGW64 ~/Desktop/30-days-of-react$ yarn add node-sass
 ```
 
 After installing node-sass you can start using Sass in React. Create a styles folder and inside this folder create test.scss. Import this file to the component you are working or index.js. You don't need import the node-sass to the component.
@@ -101,7 +101,7 @@ const Header = () = (
             <h1>30 Days Of React</h1>
             <h2>Getting Started React</h2>
             <h3>JavaScript Library</h3>
-            <p>Instructor: Asabeneh Yetayeh</p>
+            <p>Instructor: Deepak Gauttam</p>
             <small>Oct 15, 2020</small>
           </div>
         </header>
@@ -169,7 +169,7 @@ const Header = () = (
             <h1>30 Days Of React</h1>
             <h2>Getting Started React</h2>
             <h3>JavaScript Library</h3>
-            <p>Instructor: Asabeneh Yetayeh</p>
+            <p>Instructor: Deepak Gauttam</p>
             <small>Oct 15, 2020</small>
           </div>
         </header>
@@ -206,13 +206,13 @@ Axios is a JavaScript library which can make HTTP requests to fetch data. In thi
 Using npm:
 
 ```sh
-Asabeneh@DESKTOP-KGC1AKC MINGW64 ~/Desktop/30-days-of-react$ npm install axios
+Deepak@DESKTOP-KGC1AKC MINGW64 ~/Desktop/30-days-of-react$ npm install axios
 ```
 
 Using yarn:
 
 ```sh
-Asabeneh@DESKTOP-KGC1AKC MINGW64 ~/Desktop/30-days-of-react$ yarn add axios
+Deepak@DESKTOP-KGC1AKC MINGW64 ~/Desktop/30-days-of-react$ yarn add axios
 ```
 
 ```js
@@ -291,13 +291,13 @@ Icons are integral part of a website. To get different SVG icons
 Using npm:
 
 ```sh
-Asabeneh@DESKTOP-KGC1AKC MINGW64 ~/Desktop/30-days-of-react$ npm install react-icons
+Deepak@DESKTOP-KGC1AKC MINGW64 ~/Desktop/30-days-of-react$ npm install react-icons
 ```
 
 Using yarn:
 
 ```sh
-Asabeneh@DESKTOP-KGC1AKC MINGW64 ~/Desktop/30-days-of-react$ yarn add react-icons
+Deepak@DESKTOP-KGC1AKC MINGW64 ~/Desktop/30-days-of-react$ yarn add react-icons
 ```
 
 ```js
@@ -398,7 +398,7 @@ class App extends Component {
             <Title>30 Days Of React</Title>
             <h2>Getting Started React</h2>
             <h3>JavaScript Library</h3>
-            <p>Instructor: Asabeneh Yetayeh</p>
+            <p>Instructor: Deepak Gauttam</p>
             <small>Oct 15, 2020</small>
           </div>
         </Header>

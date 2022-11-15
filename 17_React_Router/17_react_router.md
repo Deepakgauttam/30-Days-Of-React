@@ -1,15 +1,15 @@
 <div align="center">
   <h1> 30 Days Of React: React Router</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
+  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/deepakgauttam/">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
-  </a>
+  <!-- <a class="header-badge" target="_blank" href="https://twitter.com/Deepak">
+  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/Deepak?style=social">
+  </a> -->
 
 <sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-<small> October, 2020</small>
+<a href="https://www.linkedin.com/in/deepakgauttam/" target="_blank">Deepak Gauttam</a><br>
+<small> November, 2022</small>
 </sub>
 
 </div>
@@ -43,7 +43,7 @@ In this section, you will get started how to use React router but it may not hav
 As we have cleared out the very beginning that React is a single page application which has only one index.html page in the entire application. When we implement a React Router the different components get render on the index.html page at same time or different time base on different logic and conditions. React Router has different versions and the latest version is React Router 5. We will use React Router version 4 for this challenge. Let's get started by installing the React Router packages.
 
 ```js
-Asabeneh@DESKTOP-KGC1AKC MINGW64 ~/Desktop/30-days-of-react$ npm install react-router-dom
+Deepak@DESKTOP-KGC1AKC MINGW64 ~/Desktop/30-days-of-react$ npm install react-router-dom
 ```
 
 Let's implement a simple routing using the boilerplate codes we have been creating in the previous days. First of all, import the _react-router-dom_ and we can extract all the necessary components we need for routing from react-router-dom.
@@ -604,9 +604,9 @@ const challenges = [
     duration: '20 Nov 2019 - 20 Dec 2019',
     slug: 'pyhton',
     url:
-      'https://github.com/https://https://github.com/Asabeneh/30-Days-Of-Python.com/Asabeneh/30-Days-Of-JavaScript/30-Days-Of-React',
+      'https://github.com/https://https://github.com/Deepak/30-Days-Of-Python.com/Deepak/30-Days-Of-JavaScript/30-Days-Of-React',
     author: {
-      firstName: 'Asabeneh',
+      firstName: 'Deepak',
       lastName: 'Yetayeh',
     },
   },
@@ -619,9 +619,9 @@ const challenges = [
     level: 'Beginners to Advanced',
     duration: '1 Jan 2020 - 30 Jan 2020',
     slug: 'javascript',
-    url: 'https://github.com/Asabeneh/30-Days-Of-JavaScript',
+    url: 'https://github.com/Deepak/30-Days-Of-JavaScript',
     author: {
-      firstName: 'Asabeneh',
+      firstName: 'Deepak',
       lastName: 'Yetayeh',
     },
   },
@@ -634,9 +634,9 @@ const challenges = [
     level: 'Beginners to Advanced',
     duration: '1 Oct 2020- 30 Oct 2020',
     slug: 'react',
-    url: 'https://github.com/Asabeneh/30-Days-Of-React',
+    url: 'https://github.com/Deepak/30-Days-Of-React',
     author: {
-      firstName: 'Asabeneh',
+      firstName: 'Deepak',
       lastName: 'Yetayeh',
     },
   },
@@ -652,7 +652,7 @@ const challenges = [
     slug: 'html-and-css',
     url: '',
     author: {
-      firstName: 'Asabeneh',
+      firstName: 'Deepak',
       lastName: 'Yetayeh',
     },
   },
@@ -667,7 +667,7 @@ const challenges = [
     slug: 'reactnative',
     url: '',
     author: {
-      firstName: 'Asabeneh',
+      firstName: 'Deepak',
       lastName: 'Yetayeh',
     },
   },
@@ -682,7 +682,7 @@ const challenges = [
     slug: 'data-analysis',
     url: '',
     author: {
-      firstName: 'Asabeneh',
+      firstName: 'Deepak',
       lastName: 'Yetayeh',
     },
   },
@@ -697,7 +697,7 @@ const challenges = [
     slug: 'machine-learning',
     url: '',
     author: {
-      firstName: 'Asabeneh',
+      firstName: 'Deepak',
       lastName: 'Yetayeh',
     },
   },
@@ -838,9 +838,9 @@ const challenges = [
     duration: '20 Nov 2019 - 20 Dec 2019',
     slug: 'pyhton',
     url:
-      'https://github.com/https://https://github.com/Asabeneh/30-Days-Of-Python.com/Asabeneh/30-Days-Of-JavaScript/30-Days-Of-React',
+      'https://github.com/https://https://github.com/Deepak/30-Days-Of-Python.com/Deepak/30-Days-Of-JavaScript/30-Days-Of-React',
     author: {
-      firstName: 'Asabeneh',
+      firstName: 'Deepak',
       lastName: 'Yetayeh',
     },
   },
@@ -853,9 +853,9 @@ const challenges = [
     level: 'Beginners to Advanced',
     duration: '1 Jan 2020 - 30 Jan 2020',
     slug: 'javascript',
-    url: 'https://github.com/Asabeneh/30-Days-Of-JavaScript',
+    url: 'https://github.com/Deepak/30-Days-Of-JavaScript',
     author: {
-      firstName: 'Asabeneh',
+      firstName: 'Deepak',
       lastName: 'Yetayeh',
     },
   },
@@ -868,9 +868,9 @@ const challenges = [
     level: 'Beginners to Advanced',
     duration: '1 Oct 2020- 30 Oct 2020',
     slug: 'react',
-    url: 'https://github.com/Asabeneh/30-Days-Of-React',
+    url: 'https://github.com/Deepak/30-Days-Of-React',
     author: {
-      firstName: 'Asabeneh',
+      firstName: 'Deepak',
       lastName: 'Yetayeh',
     },
   },
@@ -886,7 +886,7 @@ const challenges = [
     slug: 'html-and-css',
     url: '',
     author: {
-      firstName: 'Asabeneh',
+      firstName: 'Deepak',
       lastName: 'Yetayeh',
     },
   },
@@ -901,7 +901,7 @@ const challenges = [
     slug: 'reactnative',
     url: '',
     author: {
-      firstName: 'Asabeneh',
+      firstName: 'Deepak',
       lastName: 'Yetayeh',
     },
   },
@@ -916,7 +916,7 @@ const challenges = [
     slug: 'data-analysis',
     url: '',
     author: {
-      firstName: 'Asabeneh',
+      firstName: 'Deepak',
       lastName: 'Yetayeh',
     },
   },
@@ -931,7 +931,7 @@ const challenges = [
     slug: 'machine-learning',
     url: '',
     author: {
-      firstName: 'Asabeneh',
+      firstName: 'Deepak',
       lastName: 'Yetayeh',
     },
   },
@@ -1045,7 +1045,7 @@ const Welcome = ({ handleLogin, isLoggedIn }) => {
 class App extends Component {
   state = {
     isLoggedIn: false,
-    firstName: 'Asabeneh',
+    firstName: 'Deepak',
   }
   handleLogin = () => {
     this.setState({
@@ -1086,7 +1086,7 @@ class App extends Component {
                 return this.state.isLoggedIn ? (
                   <Challenges {...props} />
                 ) : (
-                  <Redirect to='/user/asabeneh' />
+                  <Redirect to='/user/Deepak' />
                 )
               }}
             />
@@ -1140,9 +1140,9 @@ const challenges = [
     duration: '20 Nov 2019 - 20 Dec 2019',
     slug: 'pyhton',
     url:
-      'https://github.com/https://https://github.com/Asabeneh/30-Days-Of-Python.com/Asabeneh/30-Days-Of-JavaScript/30-Days-Of-React',
+      'https://github.com/https://https://github.com/Deepak/30-Days-Of-Python.com/Deepak/30-Days-Of-JavaScript/30-Days-Of-React',
     author: {
-      firstName: 'Asabeneh',
+      firstName: 'Deepak',
       lastName: 'Yetayeh',
     },
   },
@@ -1155,9 +1155,9 @@ const challenges = [
     level: 'Beginners to Advanced',
     duration: '1 Jan 2020 - 30 Jan 2020',
     slug: 'javascript',
-    url: 'https://github.com/Asabeneh/30-Days-Of-JavaScript',
+    url: 'https://github.com/Deepak/30-Days-Of-JavaScript',
     author: {
-      firstName: 'Asabeneh',
+      firstName: 'Deepak',
       lastName: 'Yetayeh',
     },
   },
@@ -1170,9 +1170,9 @@ const challenges = [
     level: 'Beginners to Advanced',
     duration: '1 Oct 2020- 30 Oct 2020',
     slug: 'react',
-    url: 'https://github.com/Asabeneh/30-Days-Of-React',
+    url: 'https://github.com/Deepak/30-Days-Of-React',
     author: {
-      firstName: 'Asabeneh',
+      firstName: 'Deepak',
       lastName: 'Yetayeh',
     },
   },
@@ -1188,7 +1188,7 @@ const challenges = [
     slug: 'html-and-css',
     url: '',
     author: {
-      firstName: 'Asabeneh',
+      firstName: 'Deepak',
       lastName: 'Yetayeh',
     },
   },
@@ -1203,7 +1203,7 @@ const challenges = [
     slug: 'reactnative',
     url: '',
     author: {
-      firstName: 'Asabeneh',
+      firstName: 'Deepak',
       lastName: 'Yetayeh',
     },
   },
@@ -1218,7 +1218,7 @@ const challenges = [
     slug: 'data-analysis',
     url: '',
     author: {
-      firstName: 'Asabeneh',
+      firstName: 'Deepak',
       lastName: 'Yetayeh',
     },
   },
@@ -1233,7 +1233,7 @@ const challenges = [
     slug: 'machine-learning',
     url: '',
     author: {
-      firstName: 'Asabeneh',
+      firstName: 'Deepak',
       lastName: 'Yetayeh',
     },
   },
@@ -1347,7 +1347,7 @@ const Welcome = ({ handleLogin, isLoggedIn }) => {
 class App extends Component {
   state = {
     isLoggedIn: false,
-    firstName: 'Asabeneh',
+    firstName: 'Deepak',
   }
   handleLogin = () => {
     this.setState({
@@ -1390,7 +1390,7 @@ class App extends Component {
                 return this.state.isLoggedIn ? (
                   <Challenges {...props} />
                 ) : (
-                  <Redirect to='/user/asabeneh' />
+                  <Redirect to='/user/Deepak' />
                 )
               }}
             />
@@ -1440,9 +1440,9 @@ const challenges = [
     duration: '20 Nov 2019 - 20 Dec 2019',
     slug: 'pyhton',
     url:
-      'https://github.com/https://https://github.com/Asabeneh/30-Days-Of-Python.com/Asabeneh/30-Days-Of-JavaScript/30-Days-Of-React',
+      'https://github.com/https://https://github.com/Deepak/30-Days-Of-Python.com/Deepak/30-Days-Of-JavaScript/30-Days-Of-React',
     author: {
-      firstName: 'Asabeneh',
+      firstName: 'Deepak',
       lastName: 'Yetayeh',
     },
   },
@@ -1455,9 +1455,9 @@ const challenges = [
     level: 'Beginners to Advanced',
     duration: '1 Jan 2020 - 30 Jan 2020',
     slug: 'javascript',
-    url: 'https://github.com/Asabeneh/30-Days-Of-JavaScript',
+    url: 'https://github.com/Deepak/30-Days-Of-JavaScript',
     author: {
-      firstName: 'Asabeneh',
+      firstName: 'Deepak',
       lastName: 'Yetayeh',
     },
   },
@@ -1470,9 +1470,9 @@ const challenges = [
     level: 'Beginners to Advanced',
     duration: '1 Oct 2020- 30 Oct 2020',
     slug: 'react',
-    url: 'https://github.com/Asabeneh/30-Days-Of-React',
+    url: 'https://github.com/Deepak/30-Days-Of-React',
     author: {
-      firstName: 'Asabeneh',
+      firstName: 'Deepak',
       lastName: 'Yetayeh',
     },
   },
@@ -1488,7 +1488,7 @@ const challenges = [
     slug: 'html-and-css',
     url: '',
     author: {
-      firstName: 'Asabeneh',
+      firstName: 'Deepak',
       lastName: 'Yetayeh',
     },
   },
@@ -1503,7 +1503,7 @@ const challenges = [
     slug: 'reactnative',
     url: '',
     author: {
-      firstName: 'Asabeneh',
+      firstName: 'Deepak',
       lastName: 'Yetayeh',
     },
   },
@@ -1518,7 +1518,7 @@ const challenges = [
     slug: 'data-analysis',
     url: '',
     author: {
-      firstName: 'Asabeneh',
+      firstName: 'Deepak',
       lastName: 'Yetayeh',
     },
   },
@@ -1533,7 +1533,7 @@ const challenges = [
     slug: 'machine-learning',
     url: '',
     author: {
-      firstName: 'Asabeneh',
+      firstName: 'Deepak',
       lastName: 'Yetayeh',
     },
   },
@@ -1647,7 +1647,7 @@ const Welcome = ({ handleLogin, isLoggedIn }) => {
 class App extends Component {
   state = {
     isLoggedIn: false,
-    firstName: 'Asabeneh',
+    firstName: 'Deepak',
   }
   handleLogin = () => {
     this.setState({
@@ -1663,7 +1663,7 @@ class App extends Component {
           <Prompt
             message={({ pathname }) => {
               return this.state.isLoggedIn &&
-                pathname.includes('/user/Asabeneh')
+                pathname.includes('/user/Deepak')
                 ? 'Are you sure you want to logout?'
                 : true
             }}
@@ -1698,7 +1698,7 @@ class App extends Component {
                 return this.state.isLoggedIn ? (
                   <Challenges {...props} />
                 ) : (
-                  <Redirect to='/user/asabeneh' />
+                  <Redirect to='/user/Deepak' />
                 )
               }}
             />
