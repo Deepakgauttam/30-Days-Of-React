@@ -1,17 +1,17 @@
 <div align="center">
 
   <h1> 30 Days Of React: JavaScript Refresher</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
+  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/deepakgauttam/">
     <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
 
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
+  <!-- <a class="header-badge" target="_blank" href="Deepak twitter link">
     <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
-  </a>
+  </a> -->
 
 <sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-<small> October, 2020</small>
+<a href="https://www.linkedin.com/in/deepakgauttam/" target="_blank">Deepak Gauttam</a><br>
+<small> November, 2022</small>
 </sub>
 
 </div>
@@ -1847,7 +1847,7 @@ const person = {
 }
 
 console.log(person.getFullName())
-// Asabeneh Yetayeh
+// Deepak Gauttam
 ```
 
 #### Setting new key for an object
@@ -1900,7 +1900,7 @@ console.log(person.getPersonInfo())
 ```
 
 ```sh
-Asabeneh Yetayeh is a teacher.
+Deepak Gauttam is a teacher.
 He lives in Finland.
 He teaches HTML, CSS, JavaScript, React, Node, MongoDB, Python, D3.js, Meteor, and SasS.
 ```
@@ -3216,7 +3216,7 @@ const person = {
 }
 
 /*
-Asabeneh Yetayeh lives in Finland. He is  250 years old. He is an Instructor and Developer. He teaches HTML, CSS, JavaScript, React, Redux, Node, MongoDB, Python and D3.js. He speaks Amharic, English and a little bit of Suomi(Finnish)
+Deepak Gauttam lives in Finland. He is  250 years old. He is an Instructor and Developer. He teaches HTML, CSS, JavaScript, React, Redux, Node, MongoDB, Python and D3.js. He speaks Amharic, English and a little bit of Suomi(Finnish)
 */
 ```
 
@@ -4019,7 +4019,7 @@ console.log(person2.getFullName())
 ```
 
 ```sh
-Asabeneh Yetayeh
+Deepak Gauttam
 test.js:19 Lidiya Tekle
 ```
 
@@ -4241,7 +4241,7 @@ console.log(person3.getPersonInfo())
 ["HTML", "CSS", "JavaScript"]
 ["Planning", "Managing", "Organizing"]
 []
-Asabeneh Yetayeh is 250. He lives Helsinki, Finland. He knows HTML, CSS and JavaScript
+Deepak Gauttam is 250. He lives Helsinki, Finland. He knows HTML, CSS and JavaScript
 Lidiya Tekle is 28. He lives Espoo, Finland. He knows Planning, Managing and Organizing
 John Doe is 50. He lives Mars city, Mars.
 ```
@@ -4356,9 +4356,9 @@ console.log(s1.getPersonInfo())
 ```sh
 Student {firstName: "Asabeneh", lastName: "Yetayeh", age: "Finland", country: 250, city: "Helsinki", …}
 I am a child of the person class
-Asabeneh Yetayeh
+Deepak Gauttam
 Student {firstName: "Asabeneh", lastName: "Yetayeh", age: "Finland", country: 250, city: "Helsinki", …}
-Asabeneh Yetayeh is Finland. He lives Helsinki, 250.
+Deepak Gauttam is Finland. He lives Helsinki, 250.
 ```
 
 #### Overriding methods
@@ -4424,9 +4424,9 @@ console.log(s2.getPersonInfo())
 Student {firstName: "Asabeneh", lastName: "Yetayeh", age: 250, country: "Finland", city: "Helsinki", …}
 Student {firstName: "Lidiya", lastName: "Tekle", age: 28, country: "Finland", city: "Helsinki", …}
 I am a child of the person class
-Asabeneh Yetayeh
+Deepak Gauttam
 Student {firstName: "Asabeneh", lastName: "Yetayeh", age: 250, country: "Finland", city: "Helsinki", …}
-Asabeneh Yetayeh is 250. He lives in Helsinki, Finland. He knows HTML, CSS and JavaScript
+Deepak Gauttam is 250. He lives in Helsinki, Finland. He knows HTML, CSS and JavaScript
 I am a child of the person class
 Lidiya Tekle
 Student {firstName: "Lidiya", lastName: "Tekle", age: 28, country: "Finland", city: "Helsinki", …}

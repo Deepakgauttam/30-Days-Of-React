@@ -1,14 +1,14 @@
 <div align="center">
   <h1> 30 Days Of React: Props </h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
+  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/Deepak/">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
+  <a class="header-badge" target="_blank" href="https://twitter.com/Deepak">
+  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/Deepak?style=social">
   </a>
 
 <sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
+<a href="https://www.linkedin.com/in/Deepak/" target="_blank">Deepak Gauttam</a><br>
 <small> October, 2020</small>
 </sub>
 
@@ -58,7 +58,7 @@ const getUserInfo = (firstName, lastName, country) => {
 
 // calling a functons
 
-getUserInfo('Asabeneh', 'Yeteyeh', 'Finland')
+getUserInfo('Deepak', 'Yeteyeh', 'Finland')
 
 //component syntax
 
@@ -75,7 +75,7 @@ const User = (props) => {
   )
 }
 // calling or instantiating a component, this component has three properties and we call them props:firstName, lastName, country
-<User firstName = 'Asabeneh', lastName='Yetayeh' country = 'Finland' />
+<User firstName = 'Deepak', lastName='Yetayeh' country = 'Finland' />
 ```
 
 In the previous section, we injected data as follows and today we will change these data to props.
@@ -85,7 +85,7 @@ const welcome = 'Welcome to 30 Days Of React'
 const title = 'Getting Started React'
 const subtitle = 'JavaScript Library'
 const author = {
-  firstName: 'Asabeneh',
+  firstName: 'Deepak',
   lastName: 'Yetayeh',
 }
 const date = 'Oct 4, 2020'
@@ -230,7 +230,7 @@ const App = () => (
       welcome='Welcome to 30 Days Of React'
       title='Getting Started React'
       subtitle='JavaScript Library'
-      firstName='Asabeneh'
+      firstName='Deepak'
       lastName='Yetayeh'
       date='Oct 4, 2020'
     />
@@ -245,7 +245,7 @@ If you check on the browser console, you will get the following object.
 
 ```js
 {
-firstName: "Asabeneh",
+firstName: "Deepak",
 lastName: "Yetayeh",
 date: "Oct 4, 2020"
 subtitle: "JavaScript Library"
@@ -283,7 +283,7 @@ const App = () => {
   const welcome = 'Welcome to 30 Days Of React'
   const title = 'Getting Started React'
   const subtitle = 'JavaScript Library'
-  const firstName = 'Asabeneh'
+  const firstName = 'Deepak'
   const lastName = 'Yetayeh'
   const date = 'Oct 4, 2020'
 
@@ -509,7 +509,7 @@ const App = () => {
     title: 'Getting Started React',
     subtitle: 'JavaScript Library',
     author: {
-      firstName: 'Asabeneh',
+      firstName: 'Deepak',
       lastName: 'Yetayeh',
     },
     date: new Date(), // date needs to be formatted to a human readable format
@@ -725,7 +725,7 @@ const App = () => {
     title: 'Getting Started React',
     subtitle: 'JavaScript Library',
     author: {
-      firstName: 'Asabeneh',
+      firstName: 'Deepak',
       lastName: 'Yetayeh',
     },
     date: new Date(),
@@ -803,7 +803,7 @@ const App = () => {
     title: 'Getting Started React',
     subtitle: 'JavaScript Library',
     author: {
-      firstName: 'Asabeneh',
+      firstName: 'Deepak',
       lastName: 'Yetayeh',
     },
     date: new Date(),
@@ -879,7 +879,7 @@ const App = () => {
     title: 'Getting Started React',
     subtitle: 'JavaScript Library',
     author: {
-      firstName: 'Asabeneh',
+      firstName: 'Deepak',
       lastName: 'Yetayeh',
     },
     date: new Date(),
@@ -901,7 +901,7 @@ For instance in the Main component techs, user, greetPeople and handleTime props
 ```js
 import React from 'react'
 import ReactDOM from 'react-dom'
-import asabenehImage from './images/asabeneh.jpg'
+import DeepakImage from './images/Deepak.jpg'
 
 // Fuction to show month date year
 
@@ -1021,7 +1021,7 @@ const App = () => {
     title: 'Getting Started React',
     subtitle: 'JavaScript Library',
     author: {
-      firstName: 'Asabeneh',
+      firstName: 'Deepak',
       lastName: 'Yetayeh',
     },
     date: new Date(), // date needs to be formatted to a human readable format
@@ -1029,7 +1029,7 @@ const App = () => {
   const date = new Date()
   const techs = ['HTML', 'CSS', 'JavaScript']
   // copying the author from data object to user variable using spread operator
-  const user = { ...data.author, image: asabenehImage }
+  const user = { ...data.author, image: DeepakImage }
 
   const handleTime = () => {
     alert(showDate(new Date()))

@@ -1,14 +1,14 @@
 <div align="center">
   <h1> 30 Days Of React: Components </h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
+  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/Deepak/">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
+  <a class="header-badge" target="_blank" href="https://twitter.com/Deepak">
+  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/Deepak?style=social">
   </a>
 
 <sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
+<a href="https://www.linkedin.com/in/Deepak/" target="_blank">Deepak Gauttam</a><br>
 <small> October, 2020</small>
 </sub>
 
@@ -66,7 +66,7 @@ const getUserInfo = (firstName, lastName, country, title, skills) => {
 // When we call this function we need parameters
 const skills = ['HTML', 'CSS', 'JS', 'React']
 console.log(
-  getUserInfo('Asabeneh', 'Yetayeh', 'Finland', 'FullStack Developer', skills)
+  getUserInfo('Deepak', 'Yetayeh', 'Finland', 'FullStack Developer', skills)
 )
 ```
 
@@ -91,7 +91,7 @@ class Parent {
   }
 }
 
-const p1 = new Parent('Asabeneh', 'Yetayeh', 'Finland', 'FullStack Developer')
+const p1 = new Parent('Deepak', 'Yetayeh', 'Finland', 'FullStack Developer')
 
 class Child extends Parent {
   constructor(firstName, lastName, country, title, skills) {
@@ -111,7 +111,7 @@ class Child extends Parent {
 const skills = ['HTML', 'CSS', 'JS', 'React']
 
 const child = new Child(
-  'Asabeneh',
+  'Deepak',
   'Yetayeh',
   'Finland',
   'FullStack Developer',
@@ -146,7 +146,7 @@ const header = (
       <h1>Welcome to 30 Days Of React</h1>
       <h2>Getting Started React</h2>
       <h3>JavaScript Library</h3>
-      <p>Asabeneh Yetayeh</p>
+      <p>Deepak Gauttam</p>
       <small>Oct 3, 2020</small>
     </div>
   </header>
@@ -166,7 +166,7 @@ const Header = () => {
         <h1>Welcome to 30 Days Of React</h1>
         <h2>Getting Started React</h2>
         <h3>JavaScript Library</h3>
-        <p>Asabeneh Yetayeh</p>
+        <p>Deepak Gauttam</p>
         <small>Oct 3, 2020</small>
       </div>
     </header>
@@ -181,7 +181,7 @@ const Header = () => (
       <h1>Welcome to 30 Days Of React</h1>
       <h2>Getting Started React</h2>
       <h3>JavaScript Library</h3>
-      <p>Asabeneh Yetayeh</p>
+      <p>Deepak Gauttam</p>
       <small>Oct 3, 2020</small>
     </div>
   </header>
@@ -190,7 +190,7 @@ const Header = () => (
 
 ### Rendering components
 
-Now, lets change all the JSX elements we had to components. When we call JSX element we use curly brackets and when we call components we do as follows <ComponentName />. If we pass an attribute, when we call the component name, we call it props(<ComponentName propsName = {'data-type'} />). We will talk about props in another section.[Live on code pen](https://codepen.io/Asabeneh/full/wvaKKEM)
+Now, lets change all the JSX elements we had to components. When we call JSX element we use curly brackets and when we call components we do as follows <ComponentName />. If we pass an attribute, when we call the component name, we call it props(<ComponentName propsName = {'data-type'} />). We will talk about props in another section.[Live on code pen](https://codepen.io/Deepak/full/wvaKKEM)
 
 Let's render first the _Header_ component.
 
@@ -206,7 +206,7 @@ const Header = () => (
       <h1>Welcome to 30 Days Of React</h1>
       <h2>Getting Started React</h2>
       <h3>JavaScript Library</h3>
-      <p>Asabeneh Yetayeh</p>
+      <p>Deepak Gauttam</p>
       <small>Oct 3, 2020</small>
     </div>
   </header>
@@ -223,7 +223,7 @@ Now, let's create an App component , that will wrap the Header, Main and Footer.
 // index.js
 import React from 'react'
 import ReactDOM from 'react-dom'
-import asabenehImage from './images/asabeneh.jpg'
+import DeepakImage from './images/Deepak.jpg'
 
 // Header Component
 const Header = () => (
@@ -232,7 +232,7 @@ const Header = () => (
       <h1>Welcome to 30 Days Of React</h1>
       <h2>Getting Started React</h2>
       <h3>JavaScript Library</h3>
-      <p>Asabeneh Yetayeh</p>
+      <p>Deepak Gauttam</p>
       <small>Oct 3, 2020</small>
     </div>
   </header>
@@ -241,8 +241,8 @@ const Header = () => (
 // User Card Component
 const UserCard = () => (
   <div className='user-card'>
-    <img src={asabenehImage} alt='asabeneh image' />
-    <h2>Asabeneh Yetayeh</h2>
+    <img src={DeepakImage} alt='Deepak image' />
+    <h2>Deepak Gauttam</h2>
   </div>
 )
 
@@ -304,7 +304,7 @@ import ReactDOM from 'react-dom'
 const welcome = 'Welcome to 30 Days Of React'
 const title = 'Getting Started React'
 const subtitle = 'JavaScript Library'
-const firstName = 'Asabeneh'
+const firstName = 'Deepak'
 const lastName = 'Yetayeh'
 const date = 'Oct 3, 2020'
 
@@ -339,7 +339,7 @@ const welcome = 'Welcome to 30 Days Of React Challenge'
 const title = 'Getting Started React'
 const subtitle = 'JavaScript Library'
 const author = {
-  firstName: 'Asabeneh',
+  firstName: 'Deepak',
   lastName: 'Yetayeh',
 }
 const date = 'Oct 2, 2020'
@@ -381,7 +381,7 @@ const personAge = (
 // User Card Component
 const UserCard = () => (
   <div className='user-card'>
-    <img src={asabenehImage} alt='asabeneh image' />
+    <img src={DeepakImage} alt='Deepak image' />
     <h2>
       {author.firstName} {author.lastName}
     </h2>

@@ -1,15 +1,15 @@
 <div align="center">
   <h1> 30 Days Of React: Class Components </h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
+  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/deepakgauttam/">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
-  </a>
+  <!-- <a class="header-badge" target="_blank" href="https://twitter.com/Deepak">
+  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/Deepak?style=social">
+  </a> -->
 
 <sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-<small> October, 2020</small>
+<a href="https://www.linkedin.com/in/deepakgauttam/" target="_blank">Deepak Gauttam</a><br>
+<small> November, 2022</small>
 </sub>
 
 </div>
@@ -62,7 +62,7 @@ const Header = () => (
       <h1>Welcome to 30 Days Of React</h1>
       <h2>Getting Started React</h2>
       <h3>JavaScript Library</h3>
-      <p>Asabeneh Yetayeh</p>
+      <p>Deepak Gauttam</p>
       <small>Oct 6, 2020</small>
     </div>
   </header>
@@ -88,7 +88,7 @@ class Header extends React.Component {
           <h1>Welcome to 30 Days Of React</h1>
           <h2>Getting Started React</h2>
           <h3>JavaScript Library</h3>
-          <p>Asabeneh Yetayeh</p>
+          <p>Deepak Gauttam</p>
           <small>Oct 7, 2020</small>
         </div>
       </header>
@@ -121,7 +121,7 @@ class Header extends React.Component {
           <h1>Welcome to 30 Days Of React</h1>
           <h2>Getting Started React</h2>
           <h3>JavaScript Library</h3>
-          <p>Asabeneh Yetayeh</p>
+          <p>Deepak Gauttam</p>
           <small>Oct 7, 2020</small>
         </div>
       </header>
@@ -265,7 +265,7 @@ class Header extends React.Component {
           <h1>Welcome to 30 Days Of React</h1>
           <h2>Getting Started React</h2>
           <h3>JavaScript Library</h3>
-          <p>Asabeneh Yetayeh</p>
+          <p>Deepak Gauttam</p>
           <small>Oct 7, 2020</small>
         </div>
       </header>
@@ -381,7 +381,7 @@ const App = () => {
     title: 'Getting Started React',
     subtitle: 'JavaScript Library',
     author: {
-      firstName: 'Asabeneh',
+      firstName: 'Deepak',
       lastName: 'Yetayeh',
     },
     date: 'Oct 7, 2020',
@@ -443,7 +443,7 @@ const App = () => {
     title: 'Getting Started React',
     subtitle: 'JavaScript Library',
     author: {
-      firstName: 'Asabeneh',
+      firstName: 'Deepak',
       lastName: 'Yetayeh',
     },
     date: 'Oct 6, 2020',
@@ -557,7 +557,7 @@ class App extends React.Component {
       title: 'Getting Started React',
       subtitle: 'JavaScript Library',
       author: {
-        firstName: 'Asabeneh',
+        firstName: 'Deepak',
         lastName: 'Yetayeh',
       },
       date: 'Oct 7, 2020',
@@ -602,7 +602,7 @@ class Header extends React.Component {
           <h1>Welcome to 30 Days Of React</h1>
           <h2>Getting Started React</h2>
           <h3>JavaScript Library</h3>
-          <p>Asabeneh Yetayeh</p>
+          <p>Deepak Gauttam</p>
           <small>Oct 7, 2020</small>
           <button onClick={this.greetPeople}> Greet </button>
         </div>
@@ -624,7 +624,7 @@ Now, let's the code we had add all the necessary methods.
 
 import React from 'react'
 import ReactDOM from 'react-dom'
-import asabenehImage from './images/asabeneh.jpg'
+import DeepakImage from './images/Deepak.jpg'
 
 // Fuction to show month date year
 
@@ -785,7 +785,7 @@ class App extends React.Component {
       title: 'Getting Started React',
       subtitle: 'JavaScript Library',
       author: {
-        firstName: 'Asabeneh',
+        firstName: 'Deepak',
         lastName: 'Yetayeh',
       },
       date: 'Oct 7, 2020',
@@ -793,7 +793,7 @@ class App extends React.Component {
     const techs = ['HTML', 'CSS', 'JavaScript']
 
     // copying the author from data object to user variable using spread operator
-    const user = { ...data.author, image: asabenehImage }
+    const user = { ...data.author, image: DeepakImage }
 
     return (
       <div className='app'>

@@ -8,8 +8,8 @@
   </a>
 
 <sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-<small> October, 2020</small>
+<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Deepak Gauttam</a><br>
+<small> October, 2022</small>
 </sub>
 
 </div>
@@ -154,7 +154,7 @@ const header = (
     <h1>Welcome to 30 Days Of React</h1>
     <h2>Getting Started React</h2>
     <h3>JavaScript Library</h3>
-    <p>Asabeneh Yetayeh</p>
+    <p>Deepak Gauttam</p>
     <small>Oct 2, 2020</small>
   </header>
 )
@@ -173,7 +173,7 @@ We comment codes for different reasons and it is also good to know how to commen
     <h1>Welcome to 30 Days Of React</h1>
     <h2>Getting Started React</h2>
     <h3>JavaScript Library</h3>
-    <p>Asabeneh Yetayeh</p>
+    <p>Deepak Gauttam</p>
     <small>Oct 2, 2020</small>
   </header>
 
@@ -329,7 +329,7 @@ Let us render more content. To render more content, the JSX element should have 
           <h1>Welcome to 30 Days Of React</h1>
           <h2>Getting Started React</h2>
           <h3>JavaScript Library</h3>
-          <p>Asabeneh Yetayeh</p>
+          <p>Deepak Gauttam</p>
           <small>Oct 2, 2020</small>
         </header>
       )
@@ -382,7 +382,7 @@ const header = (
     <h1>Welcome to 30 Days Of React</h1>
     <h2>Getting Started React</h2>
     <h3>JavaScript Library</h3>
-    <p>Asabeneh Yetayeh</p>
+    <p>Deepak Gauttam</p>
     <small>Oct 2, 2020</small>
   </header>
 )
@@ -449,7 +449,7 @@ Now, let us put everything together and render it to the browser. [Live on code 
           <h1>Welcome to 30 Days Of React</h1>
           <h2>Getting Started React</h2>
           <h3>JavaScript Library</h3>
-          <p>Asabeneh Yetayeh</p>
+          <p>Deepak Gauttam</p>
           <small>Oct 2, 2020</small>
         </header>
       )
@@ -514,7 +514,7 @@ const header = (
     <h1>Welcome to 30 Days Of React</h1>
     <h2>Getting Started React</h2>
     <h3>JavaScript Library</h3>
-    <p>Asabeneh Yetayeh</p>
+    <p>Deepak Gauttam</p>
     <small>Oct 2, 2020</small>
   </header>
 )
@@ -528,7 +528,7 @@ const header = (
     <h1>Welcome to 30 Days Of React</h1>
     <h2>Getting Started React</h2>
     <h3>JavaScript Library</h3>
-    <p>Asabeneh Yetayeh</p>
+    <p>Deepak Gauttam</p>
     <small>Oct 2, 2020</small>
   </header>
 )
@@ -598,7 +598,7 @@ Now, you know how to use the inline style and how to use className. Let us style
             <h1>Welcome to 30 Days Of React</h1>
             <h2>Getting Started React</h2>
             <h3>JavaScript Library</h3>
-            <p>Asabeneh Yetayeh</p>
+            <p>Deepak Gauttam</p>
             <small>Oct 2, 2020</small>
           </div>
         </header>
@@ -765,7 +765,7 @@ Instead of style object using regular styling method is more easy than the one a
             <h1>Welcome to 30 Days Of React</h1>
             <h2>Getting Started React</h2>
             <h3>JavaScript Library</h3>
-            <p>Instructor: Asabeneh Yetayeh</p>
+            <p>Instructor: Deepak Gauttam</p>
             <small>Date: Oct 1, 2020</small>
           </div>
         </header>

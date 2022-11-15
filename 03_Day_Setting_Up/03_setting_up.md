@@ -1,15 +1,15 @@
 <div align="center">
   <h1> 30 Days Of React: Setting Up </h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
+  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/deepakgauttam/">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
-  </a>
+  <!-- <a class="header-badge" target="_blank" href="https://twitter.com/Deepak">
+  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/Deepak?style=social">
+  </a> -->
 
 <sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-<small> October, 2020</small>
+<a href="https://www.linkedin.com/in/deepakgauttam/" target="_blank">Deepak Gauttam</a><br>
+<small> November, 2022</small>
 </sub>
 
 </div>
@@ -57,7 +57,7 @@ After downloading double click and install
 We can check if node is installed on our local machine, by opening our device terminal or command prompt, and writing the following command:
 
 ```sh
-asabeneh $ node -v
+Deepak $ node -v
 v12.18.0
 ```
 
@@ -132,43 +132,43 @@ You may need to install these extensions from Visual Studio Code
 To create a react project you can use one of the following ways. Let's assume you installed node. Open the command line interface (CLI), git bash or terminal on Mac or Linux. Then run the following command. I am using git bash.
 
 ```sh
-Asabeneh@DESKTOP-KGC1AKC MINGW64 ~/Desktop
+Deepak@DESKTOP-KGC1AKC MINGW64 ~/Desktop
 $ npx create-react-app name-of-your-project
 ```
 
 If you do not like to write npx every time you create a project you may install create-react-app package globally in your computer using the following command.
 
 ```sh
-Asabeneh@DESKTOP-KGC1AKC MINGW64 ~/Desktop
+Deepak@DESKTOP-KGC1AKC MINGW64 ~/Desktop
 $ npm install -g create-react-app
 ```
 
 After you installed create-react-app, you create a React application as follows:
 
 ```sh
-Asabeneh@DESKTOP-KGC1AKC MINGW64 ~/Desktop
+Deepak@DESKTOP-KGC1AKC MINGW64 ~/Desktop
 $ create-react-app name-of-project
 ```
 
 # Your first React App
 
 ```sh
-Asabeneh@DESKTOP-KGC1AKC MINGW64 ~
+Deepak@DESKTOP-KGC1AKC MINGW64 ~
 \$ cd Desktop/
 ```
 
 ```sh
-Asabeneh@DESKTOP-KGC1AKC MINGW64 ~/Desktop
+Deepak@DESKTOP-KGC1AKC MINGW64 ~/Desktop
 \$ npx create-react-app 30-days-of-react
 ```
 
 ```sh
-Asabeneh@DESKTOP-KGC1AKC MINGW64 ~/Desktop
+Deepak@DESKTOP-KGC1AKC MINGW64 ~/Desktop
 \$ cd 30-days-of-react/
 ```
 
 ```sh
-Asabeneh@DESKTOP-KGC1AKC MINGW64 ~/Desktop/30-days-of-react (master)
+Deepak@DESKTOP-KGC1AKC MINGW64 ~/Desktop/30-days-of-react (master)
 \$ npm start
 ```
 
@@ -259,7 +259,7 @@ ReactDOM.render(jsxElement, rootElement)
 If your application is not running, go to your project folder and run the following command
 
 ```sh
-Asabeneh@DESKTOP-KGC1AKC MINGW64 ~/Desktop/30-days-of-react (master)
+Deepak@DESKTOP-KGC1AKC MINGW64 ~/Desktop/30-days-of-react (master)
 \$ npm start
 ```
 
@@ -299,7 +299,7 @@ const header = (
     <h1>Welcome to 30 Days Of React</h1>
     <h2>Getting Started React</h2>
     <h3>JavaScript Library</h3>
-    <p>Asabeneh Yetayeh</p>
+    <p>Deepak Gauttam</p>
     <small>Oct 2, 2020</small>
   </header>
 )
@@ -324,7 +324,7 @@ const header = (
     <h1>Welcome to 30 Days Of React</h1>
     <h2>Getting Started React</h2>
     <h3>JavaScript Library</h3>
-    <p>Asabeneh Yetayeh</p>
+    <p>Deepak Gauttam</p>
     <small>Oct 2, 2020</small>
   </header>
 )
@@ -390,7 +390,7 @@ const header = (
       <h1>Welcome to 30 Days Of React</h1>
       <h2>Getting Started React</h2>
       <h3>JavaScript Library</h3>
-      <p>Asabeneh Yetayeh</p>
+      <p>Deepak Gauttam</p>
       <small>Oct 2, 2020</small>
     </div>
   </header>
@@ -450,7 +450,7 @@ const header = (
       <h1>Welcome to 30 Days Of React</h1>
       <h2>Getting Started React</h2>
       <h3>JavaScript Library</h3>
-      <p>Instructor: Asabeneh Yetayeh</p>
+      <p>Instructor: Deepak Gauttam</p>
       <small>Date: Oct 1, 2020</small>
     </div>
   </header>
@@ -514,7 +514,7 @@ const welcome = 'Welcome to 30 Days Of React'
 const title = 'Getting Started React'
 const subtitle = 'JavaScript Library'
 const author = {
-  firstName: 'Asabeneh',
+  firstName: 'Deepak',
   lastName: 'Yetayeh',
 }
 const date = 'Oct 2, 2020'
@@ -605,17 +605,17 @@ ReactDOM.render(app, rootElement)
 ## Importing Media Objects in React
 
 How do we import images, video and audio in React? Let's see how we import images first.
-Create images folder in the src folder and save an image inside. For instance let's save asabeneh.jpg image and let's import this image to index.js. After importing we will inject it to a JSX expression, user. See the code below.
+Create images folder in the src folder and save an image inside. For instance let's save Deepak.jpg image and let's import this image to index.js. After importing we will inject it to a JSX expression, user. See the code below.
 
 ```js
 // index.js
 import React from 'react'
 import ReactDOM from 'react-dom'
-import asabenehImage from './images/asabeneh.jpg'
+import DeepakImage from './images/Deepak.jpg'
 
 const user = (
   <div>
-    <img src={asabenehImage} alt='asabeneh image' />
+    <img src={DeepakImage} alt='Deepak image' />
   </div>
 )
 
@@ -633,13 +633,13 @@ Let's inject the user inside the main JSX element and see the result:
 import React from 'react'
 import ReactDOM from 'react-dom'
 // To get the root element from the HTML document
-import asabenehImage from './images/asabeneh.jpg'
+import DeepakImage from './images/Deepak.jpg'
 // JSX element, header
 const welcome = 'Welcome to 30 Days Of React'
 const title = 'Getting Started React'
 const subtitle = 'JavaScript Library'
 const author = {
-  firstName: 'Asabeneh',
+  firstName: 'Deepak',
   lastName: 'Yetayeh',
 }
 const date = 'Oct 2, 2020'
@@ -684,7 +684,7 @@ const techsFormatted = techs.map((tech) => <li>{tech}</li>)
 
 const user = (
   <div>
-    <img src={asabenehImage} alt='asabeneh image' />
+    <img src={DeepakImage} alt='Deepak image' />
   </div>
 )
 
