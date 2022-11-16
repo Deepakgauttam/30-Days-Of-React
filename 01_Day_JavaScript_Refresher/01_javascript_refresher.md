@@ -6,7 +6,7 @@
   </a>
 
   <!-- <a class="header-badge" target="_blank" href="Deepak twitter link">
-    <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
+    <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/Deepak?style=social">
   </a> -->
 
 <sub>Author:
@@ -304,7 +304,7 @@ _Your main.js file should be below all other scripts_. It is very important to r
 We use _var_, _let_ and _const_ to declare a variable. The _var_ is functions scope, however _let_ and _const_ are block scope. In this challenge we use ES6 and above features of JavaScript. Avoid using _var_.
 
 ```js
-let firstName = 'Asabeneh'
+let firstName = 'Deepak'
 firstName = 'Eyob'
 
 const PI = 3.14 // Not allowed to reassign PI to a new value
@@ -313,7 +313,7 @@ const PI = 3.14 // Not allowed to reassign PI to a new value
 
 ### 2. Data types
 
-If you do not feel comfortable with data types check the following [link](https://github.com/Asabeneh/30-Days-Of-JavaScript/blob/master/02_Day_Data_types/02_day_data_types.md)
+If you do not feel comfortable with data types check the following [link](https://github.com/Deepak/30-Days-Of-JavaScript/blob/master/02_Day_Data_types/02_day_data_types.md)
 
 ### 3. Arrays
 
@@ -397,7 +397,7 @@ Number of countries: 5
 
 ```js
 const arr = [
-  'Asabeneh',
+  'Deepak',
   250,
   true,
   { country: 'Finland', city: 'Helsinki' },
@@ -735,8 +735,8 @@ toString:Converts array to string
 const numbers = [1, 2, 3, 4, 5]
 console.log(numbers.toString()) // 1,2,3,4,5
 
-const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
-console.log(names.toString()) // Asabeneh,Mathias,Elias,Brook
+const names = ['Deepak', 'Mathias', 'Elias', 'Brook']
+console.log(names.toString()) // Deepak,Mathias,Elias,Brook
 ```
 
 ##### Joining array elements
@@ -747,13 +747,13 @@ join: It is used to join the elements of the array, the argument we passed in th
 const numbers = [1, 2, 3, 4, 5]
 console.log(numbers.join()) // 1,2,3,4,5
 
-const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
+const names = ['Deepak', 'Mathias', 'Elias', 'Brook']
 
-console.log(names.join()) // Asabeneh,Mathias,Elias,Brook
-console.log(names.join('')) //AsabenehMathiasEliasBrook
-console.log(names.join(' ')) //Asabeneh Mathias Elias Brook
-console.log(names.join(', ')) //Asabeneh, Mathias, Elias, Brook
-console.log(names.join(' # ')) //Asabeneh # Mathias # Elias # Brook
+console.log(names.join()) // Deepak,Mathias,Elias,Brook
+console.log(names.join('')) //DeepakMathiasEliasBrook
+console.log(names.join(' ')) //Deepak Mathias Elias Brook
+console.log(names.join(', ')) //Deepak, Mathias, Elias, Brook
+console.log(names.join(' # ')) //Deepak # Mathias # Elias # Brook
 
 const webTechs = [
   'HTML',
@@ -1030,9 +1030,9 @@ const webTechs = [
 1. The following is an array of 10 students ages:
    `js const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24] ` - Sort the array and find the min and max age - Find the median age(one middle item or two middle items divided by two) - Find the average age(all items divided by number of items) - Find the range of the ages(max minus min) - Compare the value of (min - average) and (max - average), use _abs()_ method
 
-   1.Slice the first ten countries from the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js)
+   1.Slice the first ten countries from the [countries array](https://github.com/Deepak/30DaysOfJavaScript/tree/master/data/countries.js)
 
-1. Find the middle country(ies) in the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js)
+1. Find the middle country(ies) in the [countries array](https://github.com/Deepak/30DaysOfJavaScript/tree/master/data/countries.js)
 1. Divide the countries array into two equal arrays if it is even. If countries array is not even , one more country for the first half.
 
 ### 4. Conditionals
@@ -1547,8 +1547,8 @@ The for in loop can be used with object literals to get the keys of the object.
 
 ```js
 const user = {
-  firstName: 'Asabeneh',
-  lastName: 'Yetayeh',
+  firstName: 'Deepak',
+  lastName: 'Gauttam',
   age: 250,
   country: 'Finland',
   skills: ['HTML', 'CSS', 'JS', 'React', 'Node', 'Python', 'D3.js'],
@@ -1753,8 +1753,8 @@ const rectangle = {
 console.log(rectangle) // {length: 20, width: 20}
 
 const person = {
-  firstName: 'Asabeneh',
-  lastName: 'Yetayeh',
+  firstName: 'Deepak',
+  lastName: 'Gauttam',
   age: 250,
   country: 'Finland',
   city: 'Helsinki',
@@ -1782,8 +1782,8 @@ We can access values of object using two methods:
 
 ```js
 const person = {
-  firstName: 'Asabeneh',
-  lastName: 'Yetayeh',
+  firstName: 'Deepak',
+  lastName: 'Gauttam',
   age: 250,
   country: 'Finland',
   city: 'Helsinki',
@@ -1826,8 +1826,8 @@ Now, the person object has getFullName properties. The getFullName is function i
 
 ```js
 const person = {
-  firstName: 'Asabeneh',
-  lastName: 'Yetayeh',
+  firstName: 'Deepak',
+  lastName: 'Gauttam',
   age: 250,
   country: 'Finland',
   city: 'Helsinki',
@@ -1858,8 +1858,8 @@ Setting a new keys in an object
 
 ```js
 const person = {
-  firstName: 'Asabeneh',
-  lastName: 'Yetayeh',
+  firstName: 'Deepak',
+  lastName: 'Gauttam',
   age: 250,
   country: 'Finland',
   city: 'Helsinki',
@@ -1913,7 +1913,7 @@ _Object.assign_: To copy an object without modifying the original object
 
 ```js
 const person = {
-  firstName: 'Asabeneh',
+  firstName: 'Deepak',
   age: 250,
   country: 'Finland',
   city: 'Helsinki',
@@ -2203,8 +2203,8 @@ addTwoNumbers() // a function has to be called by its name to be executed
 
 ```js
 function printFullName() {
-  let firstName = 'Asabeneh'
-  let lastName = 'Yetayeh'
+  let firstName = 'Deepak'
+  let lastName = 'Gauttam'
   let space = ' '
   let fullName = firstName + space + lastName
   console.log(fullName)
@@ -2219,8 +2219,8 @@ Function can also return values, if a function does not return values the value 
 
 ```js
 function printFullName() {
-  let firstName = 'Asabeneh'
-  let lastName = 'Yetayeh'
+  let firstName = 'Deepak'
+  let lastName = 'Gauttam'
   let space = ' '
   let fullName = firstName + space + lastName
   return fullName
@@ -2289,7 +2289,7 @@ console.log(sumTwoNumbers(10, 20))
 function printFullName(firstName, lastName) {
   return `${firstName} ${lastName}`
 }
-console.log(printFullName('Asabeneh', 'Yetayeh'))
+console.log(printFullName('Deepak', 'Gauttam'))
 ```
 
 #### Function with many parameters
@@ -2479,7 +2479,7 @@ const printFullName = (firstName, lastName) => {
   return `${firstName} ${lastName}`
 }
 
-console.log(printFullName('Asabeneh', 'Yetayeh'))
+console.log(printFullName('Deepak', 'Gauttam'))
 ```
 
 The above function has only the return statement, therefore, we can explicitly return it as follows.
@@ -2487,7 +2487,7 @@ The above function has only the return statement, therefore, we can explicitly r
 ```js
 const printFullName = (firstName, lastName) => `${firstName} ${lastName}`
 
-console.log(printFullName('Asabeneh', 'Yetayeh'))
+console.log(printFullName('Deepak', 'Gauttam'))
 ```
 
 #### Function with default parameters
@@ -2515,11 +2515,11 @@ function greetings(name = 'Peter') {
 }
 
 console.log(greetings())
-console.log(greetings('Asabeneh'))
+console.log(greetings('Deepak'))
 ```
 
 ```js
-function generateFullName(firstName = 'Asabeneh', lastName = 'Yetayeh') {
+function generateFullName(firstName = 'Deepak', lastName = 'Gauttam') {
   let space = ' '
   let fullName = firstName + space + lastName
   return fullName
@@ -2571,11 +2571,11 @@ const greetings = (name = 'Peter') => {
 }
 
 console.log(greetings())
-console.log(greetings('Asabeneh'))
+console.log(greetings('Deepak'))
 ```
 
 ```js
-const generateFullName = (firstName = 'Asabeneh', lastName = 'Yetayeh') => {
+const generateFullName = (firstName = 'Deepak', lastName = 'Gauttam') => {
   let space = ' '
   let fullName = firstName + space + lastName
   return fullName
@@ -3116,8 +3116,8 @@ We can just destructure step by step
 ```js
 const props = {
   user:{
-    firstName:'Asabeneh',
-    lastName:'Yetayeh',
+    firstName:'Deepak',
+    lastName:'Gauttam',
     age:250
   },
   post:{
@@ -3141,8 +3141,8 @@ const [skillOne, skillTwo, skillThree, skillFour, skillFive] = skills
 ```js
 const props = {
   user:{
-    firstName:'Asabeneh',
-    lastName:'Yetayeh',
+    firstName:'Deepak',
+    lastName:'Gauttam',
     age:250
   },
   post:{
@@ -3196,8 +3196,8 @@ Create a function called getPersonInfo. The getPersonInfo function takes an obje
 
 ```js
 const person = {
-  firstName: 'Asabeneh',
-  lastName: 'Yetayeh',
+  firstName: 'Deepak',
+  lastName: 'Gauttam',
   age: 250,
   country: 'Finland',
   job: 'Instructor and Developer',
@@ -3304,7 +3304,7 @@ We can copy an object using a spread operator
 
 ```js
 const user = {
-  name: 'Asabeneh',
+  name: 'Deepak',
   title: 'Programmer',
   country: 'Finland',
   city: 'Helsinki',
@@ -3315,14 +3315,14 @@ console.log(copiedUser)
 ```
 
 ```sh
-{name: "Asabeneh", title: "Programmer", country: "Finland", city: "Helsinki"}
+{name: "Deepak", title: "Programmer", country: "Finland", city: "Helsinki"}
 ```
 
 Modifying or changing the object while copying
 
 ```js
 const user = {
-  name: 'Asabeneh',
+  name: 'Deepak',
   title: 'Programmer',
   country: 'Finland',
   city: 'Helsinki',
@@ -3333,7 +3333,7 @@ console.log(copiedUser)
 ```
 
 ```sh
-{name: "Asabeneh", title: "instructor", country: "Finland", city: "Helsinki"}
+{name: "Deepak", title: "instructor", country: "Finland", city: "Helsinki"}
 ```
 
 ##### Spread operator with arrow function
@@ -3901,13 +3901,13 @@ class Person {
   }
 }
 
-const person1 = new Person('Asabeneh', 'Yetayeh')
+const person1 = new Person('Deepak', 'Gauttam')
 
 console.log(person1)
 ```
 
 ```sh
-Person {firstName: "Asabeneh", lastName: "Yetayeh"}
+Person {firstName: "Deepak", lastName: "Gauttam"}
 ```
 
 As we have stated at the very beginning that once we create a class we can create many object using the class. Now, let us create many person objects using the Person class.
@@ -3921,9 +3921,9 @@ class Person {
   }
 }
 
-const person1 = new Person('Asabeneh', 'Yetayeh')
+const person1 = new Person('Deepak', 'Gauttam')
 const person2 = new Person('Lidiya', 'Tekle')
-const person3 = new Person('Abraham', 'Yetayeh')
+const person3 = new Person('Abraham', 'Gauttam')
 
 console.log(person1)
 console.log(person2)
@@ -3931,9 +3931,9 @@ console.log(person3)
 ```
 
 ```sh
-Person {firstName: "Asabeneh", lastName: "Yetayeh"}
+Person {firstName: "Deepak", lastName: "Gauttam"}
 Person {firstName: "Lidiya", lastName: "Tekle"}
-Person {firstName: "Abraham", lastName: "Yetayeh"}
+Person {firstName: "Abraham", lastName: "Gauttam"}
 ```
 
 Using the class Person we created three persons object. As you can see our class did not many properties let us add more properties to the class.
@@ -3950,13 +3950,13 @@ class Person {
   }
 }
 
-const person1 = new Person('Asabeneh', 'Yetayeh', 250, 'Finland', 'Helsinki')
+const person1 = new Person('Deepak', 'Gauttam', 250, 'Finland', 'Helsinki')
 
 console.log(person1)
 ```
 
 ```sh
-Person {firstName: "Asabeneh", lastName: "Yetayeh", age: 250, country: "Finland", city: "Helsinki"}
+Person {firstName: "Deepak", lastName: "Gauttam", age: 250, country: "Finland", city: "Helsinki"}
 ```
 
 #### Default values with constructor
@@ -3966,8 +3966,8 @@ The constructor function properties may have a default value like other regular 
 ```js
 class Person {
   constructor(
-    firstName = 'Asabeneh',
-    lastName = 'Yetayeh',
+    firstName = 'Deepak',
+    lastName = 'Gauttam',
     age = 250,
     country = 'Finland',
     city = 'Helsinki'
@@ -3988,7 +3988,7 @@ console.log(person2)
 ```
 
 ```sh
-Person {firstName: "Asabeneh", lastName: "Yetayeh", age: 250, country: "Finland", city: "Helsinki"}
+Person {firstName: "Deepak", lastName: "Gauttam", age: 250, country: "Finland", city: "Helsinki"}
 Person {firstName: "Lidiya", lastName: "Tekle", age: 28, country: "Finland", city: "Espoo"}
 ```
 
@@ -4011,7 +4011,7 @@ class Person {
   }
 }
 
-const person1 = new Person('Asabeneh', 'Yetayeh', 250, 'Finland', 'Helsinki')
+const person1 = new Person('Deepak', 'Gauttam', 250, 'Finland', 'Helsinki')
 const person2 = new Person('Lidiya', 'Tekle', 28, 'Finland', 'Espoo')
 
 console.log(person1.getFullName())
@@ -4044,7 +4044,7 @@ class Person {
   }
 }
 
-const person1 = new Person('Asabeneh', 'Yetayeh', 250, 'Finland', 'Helsinki')
+const person1 = new Person('Deepak', 'Gauttam', 250, 'Finland', 'Helsinki')
 const person2 = new Person('Lidiya', 'Tekle', 28, 'Finland', 'Espoo')
 
 console.log(person1.score)
@@ -4090,7 +4090,7 @@ class Person {
   }
 }
 
-const person1 = new Person('Asabeneh', 'Yetayeh', 250, 'Finland', 'Helsinki')
+const person1 = new Person('Deepak', 'Gauttam', 250, 'Finland', 'Helsinki')
 const person2 = new Person('Lidiya', 'Tekle', 28, 'Finland', 'Espoo')
 
 console.log(person1.getScore) // We do not need parenthesis to call a getter method
@@ -4140,7 +4140,7 @@ class Person {
   }
 }
 
-const person1 = new Person('Asabeneh', 'Yetayeh', 250, 'Finland', 'Helsinki')
+const person1 = new Person('Deepak', 'Gauttam', 250, 'Finland', 'Helsinki')
 const person2 = new Person('Lidiya', 'Tekle', 28, 'Finland', 'Espoo')
 
 person1.setScore = 1
@@ -4209,7 +4209,7 @@ class Person {
   }
 }
 
-const person1 = new Person('Asabeneh', 'Yetayeh', 250, 'Finland', 'Helsinki')
+const person1 = new Person('Deepak', 'Gauttam', 250, 'Finland', 'Helsinki')
 const person2 = new Person('Lidiya', 'Tekle', 28, 'Finland', 'Espoo')
 const person3 = new Person('John', 'Doe', 50, 'Mars', 'Mars city')
 
@@ -4346,7 +4346,7 @@ class Student extends Person {
   }
 }
 
-const s1 = new Student('Asabeneh', 'Yetayeh', 'Finland', 250, 'Helsinki')
+const s1 = new Student('Deepak', 'Gauttam', 'Finland', 250, 'Helsinki')
 console.log(s1)
 console.log(s1.saySomething())
 console.log(s1.getFullName())
@@ -4354,10 +4354,10 @@ console.log(s1.getPersonInfo())
 ```
 
 ```sh
-Student {firstName: "Asabeneh", lastName: "Yetayeh", age: "Finland", country: 250, city: "Helsinki", …}
+Student {firstName: "Deepak", lastName: "Gauttam", age: "Finland", country: 250, city: "Helsinki", …}
 I am a child of the person class
 Deepak Gauttam
-Student {firstName: "Asabeneh", lastName: "Yetayeh", age: "Finland", country: 250, city: "Helsinki", …}
+Student {firstName: "Deepak", lastName: "Gauttam", age: "Finland", country: 250, city: "Helsinki", …}
 Deepak Gauttam is Finland. He lives Helsinki, 250.
 ```
 
@@ -4391,8 +4391,8 @@ class Student extends Person {
 }
 
 const s1 = new Student(
-  'Asabeneh',
-  'Yetayeh',
+  'Deepak',
+  'Gauttam',
   250,
   'Finland',
   'Helsinki',
@@ -4421,11 +4421,11 @@ console.log(s2.getPersonInfo())
 ```
 
 ```sh
-Student {firstName: "Asabeneh", lastName: "Yetayeh", age: 250, country: "Finland", city: "Helsinki", …}
+Student {firstName: "Deepak", lastName: "Gauttam", age: 250, country: "Finland", city: "Helsinki", …}
 Student {firstName: "Lidiya", lastName: "Tekle", age: 28, country: "Finland", city: "Helsinki", …}
 I am a child of the person class
 Deepak Gauttam
-Student {firstName: "Asabeneh", lastName: "Yetayeh", age: 250, country: "Finland", city: "Helsinki", …}
+Student {firstName: "Deepak", lastName: "Gauttam", age: 250, country: "Finland", city: "Helsinki", …}
 Deepak Gauttam is 250. He lives in Helsinki, Finland. He knows HTML, CSS and JavaScript
 I am a child of the person class
 Lidiya Tekle
@@ -4514,7 +4514,7 @@ So do not directly manipulate the DOM if you are using react. The only place we 
 </html>
 ```
 
-Check out there result on [codepen](https://codepen.io/Asabeneh/full/vYGqQxP)
+Check out there result on [codepen](https://codepen.io/Deepak/full/vYGqQxP)
 
 🌕 You are amazing! You have just completed day 1 challenge and you are on your way to greatness. Now you are a JavaScript Ninja and ready to dive into React.
 
